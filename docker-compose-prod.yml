@@ -6,7 +6,7 @@ services:
     command: python /code/manage.py runserver 0.0.0.0:8000
     environment:
       - ENVIRONMENT=production
-      - SECRET_KEY=django-insecure-mimqdmt$z2o$rqwvtry4x6s5k#a2bcywo60zezn*4w8!^z15+5
+      - SECRET_KEY=mimqdmt$zer2o$rqwvtww23ry4x6s5k#a2dsfbcywo60zezn*4w8!^z15+5
       - DEBUG=0
     volumes:
       - .:/code
